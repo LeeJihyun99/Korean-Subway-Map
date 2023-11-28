@@ -25,6 +25,7 @@ body{
 }
 .button:hover{
     background-color:green;
+    color:white;
 }
 .station{
     border:1px solid green;
@@ -52,4 +53,7 @@ p{
 .subway{
     margin-left:30px;
     margin-right:30px;
+}
+.station.one{
+    border:3px solid green;
 }
