@@ -74,7 +74,17 @@ p{
     animation:fadeout 0.6s linear forwards 2s;
     
 }
+.dest2{
+    border-bottom:3px solid #FFFFE0; 
+    transition:border-bottom 0.6s linear;
+    animation:fadeout2 0.6s linear forwards 2s;
+}
 @keyframes fadeout {
     0%{border-bottom:3px solid #FFFFE0; }
     100%{border-bottom:1px solid green;}
 }
+@keyframes fadeout2 {
+    0%{border-bottom:2px solid #FFFFE0; }
+    100%{border-bottom:1px solid green;}
+}
+
