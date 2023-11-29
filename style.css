@@ -12,6 +12,7 @@ body{
     align-items: center;
     justify-content: center;
     overflow:hidden;
+    background-color:thistle;
 }
 .button{
     text-align:center;
@@ -34,6 +35,8 @@ body{
     width:25px;
     text-align:center;
     position:relative;
+    border:0;
+    background-color:green;
 }
 .progress,.buttons{
     width:70vw;
@@ -54,6 +57,20 @@ p{
     margin-left:30px;
     margin-right:30px;
 }
-.station.one{
-    border:3px solid green;
+.station{
+    outline:solid 1px #FFFFE0;
+}
+.destination{
+   transition:outline 0.6s linear 1s;
+   outline-width:3px;
+   }
+.dest{
+    border-bottom:3px solid #FFFFE0; 
+    transition:border-bottom 0.6s linear;
+    animation:fadeout 0.6s linear forwards 2s;
+    
+}
+@keyframes fadeout {
+    0%{border-bottom:3px solid #FFFFE0; }
+    100%{border-bottom:1px solid green;}
 }
